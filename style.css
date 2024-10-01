@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.open-sans-openSans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    margin: 0;
+    font-family: "Open Sans",sans-serif; 
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.left-nav{
+    width: 40%;
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+}
+
+.right-nav select{
+    text-decoration: none;
+    border: none;
+    margin-right: 20px;
+    font-family: "Open Sans",sans-serif; 
+    font-size: 15px;
+    font-weight: 600px;
+
+}
+
+.right-nav a{
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: 600px;
+}
+
+.first-btn button{
+    color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.first-text{
+    padding: 70px 10px 10px 10px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.heading{
+    font-family: "Poppins",sans-serif;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px
+}
+
+.text {
+    text-align: center;
+    width: 42%;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400px;
+}
+
+.second-frame{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.left-second{
+   width:50% ;
+   margin-left: 60px;
+   
+   padding: 20px;
+}
+
+.text1 {
+    text-align: left;
+    width: 30%;
+    line-height: 50px;
+    font-size: 10px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400px; 
+    padding-left: 10px;  
+}
+
+.second-heading{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Open Sans",sans-serif;
+}
+
+.right-second{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-container{
+    width: 60%;
+    /* height: 400px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.right-container>div{
+    margin: 10px;
+}
+.right-container label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.right-container input{
+    width: 100%;
+    padding: 10px;
+}
+
+.robot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-btn button{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* third frame start */
+.third-frame{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-frame h1{
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.deploy-container{
+    margin-top: 20px;
+    display: flex;
+}
+
+.deploy-container>div{
+    margin: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-container>div{
+    margin: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    color: #6E71CC;
+    font-size: 15px;
+    background-color: #1818b814;
+}
+
+.fourth-container{
+    padding: 30px;
+    margin: 50px 10px 10px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fourth-card-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 32px;
+    background-color: #F6EDE7;
+}
+
+.fourth-card{
+    background-color: white;
+    margin: 20px;
+    width: 161px;
+    height: 161px; 
+    padding: 10px;
+    border-radius: 32px;   
+}
+
+.fourth-card img{
+    width: 56px;
+    height: 56px;
+    
+}
+
+.fourth-btn button{
+    padding: 16px 24px;
+    color: white;
+    background-color: #ED0331;
+    border-radius: 8px;
+    border: none;
+}
+.footer{
+    
+    background: #0A0103;
+    width: 100%;
+    padding: 10px 50px 10px 50px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-footer{
+
+}
+
+.left-footer img{
+    width: 114px;
+    height: 40px;
+}
+
+.right-footer {
+    display: flex;
+
+}
+
+.text2{
+    color: #9D999A;
+    margin-right: 30px;
+}
+
+.right-footer img{
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+}
+
+.footer-body{
+    border: apx solid red;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer{
+    width: 15%;
+    color: #CECCCD;
+    line-height: 30px;
+}
+
+.offline-campus{
+    color: #9D999A;
+    text-align: center;
+
+}
+
+.offline-campus h1{
+    text-align: left;
+    color: rgb(249, 246, 246);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.offline-campus span{
+    color: red;
+}
+.offline-container{
+    display: flex;
+}
+
+.offline-container img{
+    width: 72px;
+    height: 72px;
+}
+
+@media (max-width:400px) {
+
+    .second-frame{
+        display: inline-block;
+        width: 100%;
+    }
+    .left-second{
+        width: 100%;
+    }
+    .right-second{
+        width: 100%;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+    .fourth-container{
+        display: inline;
+        justify-content: left;
+    }
+    .fourth-card-container{
+        display: inline-block;
+        justify-content: left;
+        padding: 0;
+    }
+    .fourth-card{
+        display: flex;
+        justify-content: left;
+        width: 90%;
+        height:fit-content ;
+        margin-left: 0;
+    }
+    .fourth-card img{
+        margin-right: 10px;
+    }
+    .footer-nav{
+        display: flex;
+        align-items: flex-end;
+
+    }
+    .footer-body{
+        display: inline-block;    
+    }
+    .nav-bar{
+        width: 100%;
+        display: flex;
+    }
+
+}
